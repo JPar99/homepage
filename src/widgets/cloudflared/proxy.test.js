@@ -136,11 +136,7 @@ describe("widgets/cloudflared/proxy", () => {
       200,
       "application/json",
       JSON.stringify({
-        result: [
-          { status: "healthy" },
-          { status: "healthy" },
-          { status: "down" },
-        ],
+        result: [{ status: "healthy" }, { status: "healthy" }, { status: "down" }],
       }),
     ]);
 

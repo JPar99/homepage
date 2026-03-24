@@ -35,10 +35,7 @@ export default function Component({ service }) {
 
   return (
     <Container service={service}>
-      <Block
-        label="cloudflared.status"
-        value={statsData.status.charAt(0).toUpperCase() + statsData.status.slice(1)}
-      />
+      <Block label="cloudflared.status" value={statsData.status.charAt(0).toUpperCase() + statsData.status.slice(1)} />
       <Block label="cloudflared.origin_ip" value={originIP} />
     </Container>
   );

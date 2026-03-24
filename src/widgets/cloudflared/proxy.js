@@ -1,7 +1,7 @@
-import { httpProxy } from "utils/proxy/http";
-import { asJson } from "utils/proxy/api-helpers";
-import createLogger from "utils/logger";
 import getServiceWidget from "utils/config/service-helpers";
+import createLogger from "utils/logger";
+import { asJson } from "utils/proxy/api-helpers";
+import { httpProxy } from "utils/proxy/http";
 
 const logger = createLogger("cloudflaredProxyHandler");
 
